@@ -38,8 +38,6 @@ A estrutura visual do banco de dados, mostrando todas as tabelas, colunas e como
 
 ![Diagrama do Banco de Dados da Oficina](diagrama_oficina.png)
 
-*(Lembre-se de fazer o upload do seu arquivo de imagem com o nome `diagrama_oficina.png` para que ele apareça aqui)*
-
 ---
 
 ## 🛠️ Como Utilizar
