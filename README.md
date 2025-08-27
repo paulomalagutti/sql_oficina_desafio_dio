@@ -34,11 +34,7 @@ Com base na narrativa, o banco de dados foi modelado com as seguintes entidades 
 
 ##  DIAGRAMA EER (Modelo Entidade-Relacionamento)
 
-A estrutura visual do banco de dados, mostrando todas as tabelas, colunas e como elas se conectam, é apresentada abaixo:
-
-![Diagrama do Banco de Dados da Oficina](diagrama_oficina.png)
-
----
+A estrutura visual do banco de dados, mostrando todas as tabelas, colunas e como elas se conectam.
 
 ## 🛠️ Como Utilizar
 
