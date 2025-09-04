@@ -1,0 +1,32 @@
+Desafio de Projeto: Banco de Dados de Oficina Mecânica
+Este repositório contém a implementação de um banco de dados para o cenário de uma oficina mecânica, como parte de um desafio de projeto. O objetivo foi criar um esquema lógico a partir de um modelo conceitual, persistir dados para testes e realizar consultas analíticas complexas.
+
+Modelo Lógico
+O banco de dados foi modelado para suportar as operações diárias de uma oficina, incluindo o gerenciamento de clientes, veículos, ordens de serviço, peças e serviços.
+
+Estrutura das Tabelas
+Entidades Principais:
+
+clients: Armazena os dados dos clientes.
+
+vehicles: Registra os veículos de cada cliente.
+
+mechanics: Contém os dados dos mecânicos da oficina.
+
+parts e services: Catálogos de peças e serviços oferecidos.
+
+Tabela Central:
+
+service_orders: Unifica as informações de cada trabalho, registrando o veículo, a data e o status.
+
+Tabelas Associativas:
+
+service_order_parts, service_order_services, service_order_mechanics: Ligam as ordens de serviço às peças utilizadas, serviços realizados e mecânicos responsáveis, resolvendo os relacionamentos Muitos-para-Muitos.
+
+Tecnologias Utilizadas
+SGBD: MySQL
+
+Como Utilizar
+Criação do Banco de Dados: Execute o script contido no arquivo schema_oficina.sql para criar toda a estrutura do banco de dados e suas tabelas.
+
+Inserção de Dados: Execute o script data_insertion_oficina.sql para popular o banco de dados com dados de exemplo.
